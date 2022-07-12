@@ -31,13 +31,13 @@
 
 // Test to see if it works
 
-document.getElementById("all").addEventListener("click", gotoUrl);
+document.getElementById("all").addEventListener("click", urlOne);
 document.getElementById("breakfast").addEventListener("click", urlTwo);
 document.getElementById("lunch").addEventListener("click", urlThree);
 
 // function line
-function gotoUrl() {
-       window.location.assign("main.html");
+function urlOne() {
+       window.location.assign("index.html");
     }
 
     function urlTwo() {
