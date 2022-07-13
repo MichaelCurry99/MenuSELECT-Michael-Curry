@@ -31,17 +31,17 @@
 
 // Test to see if it works (above).
 
-document.getElementById("all").addEventListener("click", urlOne);          //This is the DOM to create the link to the pages I created in the buttons.
-document.getElementById("breakfast").addEventListener("click", urlTwo);    // I use the id from the HTML button elements so that once I click it, I have
-document.getElementById("lunch").addEventListener("click", urlThree);
+document.getElementById("all").addEventListener("click", urlOne);          // This is the DOM to create the link to the pages I created in the buttons.
+document.getElementById("breakfast").addEventListener("click", urlTwo);    // I use the id from the HTML button elements so that once I click a button, I can go to the next page.
+document.getElementById("lunch").addEventListener("click", urlThree);      // The urlOne to urlFive are functions used to hold the action the buttons are needed to do, along with the click event.
 document.getElementById("shakes").addEventListener("click", urlFour);
 document.getElementById("dinner").addEventListener("click", urlFive);
 
-// function line
-function urlOne() {
-       window.location.assign("index.html");
-       window.location.replace("index.html");
-       return false;
+
+function urlOne() {                                        // function line for each button.
+       window.location.assign("index.html"); // inserts the link
+       window.location.replace("index.html"); // prevents from having a history on each button I click.
+       return false; // The prevention to erase history when clicking the back and forward button.
     }
 
     function urlTwo() {

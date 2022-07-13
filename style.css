@@ -1,6 +1,7 @@
 /* Our buttons are all aligned together */
 
-body{background-color: brown;}
+/* Background Color */
+body{background-color: brown;}   
 
 
 header{
@@ -12,6 +13,12 @@ header{
     margin-left: -4%;   
 }
 
+#sectionrow1{
+  background-color: orange;
+  color: orange;
+  width: 20rem;
+  margin-left: 38%;
+}
 
 button{     
 font-family: fantasy;
