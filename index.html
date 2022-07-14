@@ -1,6 +1,4 @@
 <!-- MAIN PAGE -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,36 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Select</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">     <!-- Gives me the source name of my CSS document. -->
 </head>
 <body id="a">
-    <div id="container">
- <header id="Our Menu">Our Menu</header>
+    <div id="main-container">
+ <header id="Our Menu">Our Menu</header>        <!-- My header for most of my HTML links. -->    
 
-<p id="sectionrow1"> njooi</p> 
+<p id="sectionrow1"> Enjoy</p>                  <!-- This is the bar at the bottom of the header -->
 
- <button id="all" >All</button>
-   <button id="breakfast">Breakfast</button>
+
+
+ <button id="all" >All</button>                                <!-- All five buttons to click for the next page! -->
+   <button id="breakfast">Breakfast</button>                    <!-- Ids are set for JavaScripting so that we can look at the menu of what we want to eat. -->
    <button id="lunch">Lunch</button>
    <button id="shakes">Shakes</button>
    <button id="dinner">Dinner</button>
 
-   <div id="container1">
+   <div id="container1">                                          <!-- The id doesn't do much, but the div separates the food display. -->
 
-    <h1 id="foodname1">Pepperoni Sliced Pizza</h1>
-    <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg" width="290" height="180"></img>  
-    <p id="info1"> Comes with a Medium Beverage and a side <br> including, Mozzarella, and Chocalate Chip Cookies.</p><h1 id="price1"> $4.99</h1>
+    <h1 id="foodname1">Pepperoni Sliced Pizza</h1>   <!-- This is the name of our food that's made on the menu. -->
+    <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg" width="290" height="180"></img>  <!-- The image of the food name. -->
+    <p id="info1"> Comes with a Medium Beverage and a side <br> including, Mozzarella, and Chocalate Chip Cookies.</p><h1 id="price1"> $4.99</h1>     <!-- Information of the food section to give details on the meal as well as the price amount. -->
 
     <br>
 
-    <h1 id="foodname2">Strawberry Milkshake</h1>
+    <h1 id="foodname2">Strawberry Milkshake</h1>   <!-- Same goes for the rest of the containers. -->
     <img id="image2" src="https://livinghealthywithchocolate.com/wp-content/uploads/2016/02/Paleo-Strawberry-Milkshake-dairy-free-sugar-free-gluten-free-500x500.jpg" width="290" height="180"></img>  
     <p id="info2"> Comes with french fries, and ketchup.</p><h1 id="price2"> $3.45</h1>
 
 
    </div>
 
-   <br>
+   <br>     <!-- I use the break tag to create space between the meals displayed. -->
 
    <div id="container2">
 
@@ -71,7 +71,7 @@
 
    <br>
 
-   <div id="container3">
+   <div id="container4">
 
     <h1 id="foodname1">Fiesta Taco Pack</h1>
     <img id="image" src="https://i2.wp.com/reluctantentertainer.com/wp-content/uploads/2019/05/Easy-Taco-Recipe-Dinner-Board-4.jpg" width="290" height="180"></img>  
@@ -87,7 +87,7 @@
 
     <br>
     
-    <div id="container3">
+    <div id="container5">
 
         <h1 id="foodname1">Shrimp Fried Rice Combo</h1>
         <img id="image" src="https://mahatmarice.com/wp-content/uploads/2019/05/Shrimp-Fried-Rice-w-Pineapple-Egg-020.jpg" width="290" height="180"></img>  
@@ -101,9 +101,9 @@
         <p id="info2"> A shake that comes with any dessert on the side. </p><h1 id="price2"> $7.99</h1>
        </div>
 
-
     </div>
+    
 </body>
-<script src="script.js"></script>
+<script src="script.js"></script>                      <!-- JavaScript source for the buttons and history tab, though there will be no history when clicking these buttons. -->
 </html>
 

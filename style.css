@@ -3,7 +3,7 @@
 /* Background Color */
 body{background-color: brown;}   
 
-
+/* Stylizing "Our Menu" at the head, top and center of the page. */
 header{
     font-family: fantasy;
     color: aliceblue;
@@ -13,9 +13,10 @@ header{
     margin-left: -4%;   
 }
 
+/* The banner under the header*/
 #sectionrow1{
-  background-color: orange;
-  color: orange;
+  background-color: rgb(255, 217, 0);
+  color: rgb(255, 217, 0);
   width: 20rem;
   margin-left: 38%;
 }

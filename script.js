@@ -37,8 +37,8 @@ document.getElementById("lunch").addEventListener("click", urlThree);      // Th
 document.getElementById("shakes").addEventListener("click", urlFour);
 document.getElementById("dinner").addEventListener("click", urlFive);
 
-
-function urlOne() {                                        // function line for each button.
+// this is the "All" button that
+function urlOne() {                                        // function line for each button. 
        window.location.assign("index.html"); // inserts the link
        window.location.replace("index.html"); // prevents from having a history on each button I click.
        return false; // The prevention to erase history when clicking the back and forward button.
@@ -68,4 +68,6 @@ function urlOne() {                                        // function line for 
     return false;
    }
 
-   
+   let container = document.getElementById("main-container");
+function handleForm(event) { event.preventDefault(); } 
+container.addEventListener('submit', handleForm);
