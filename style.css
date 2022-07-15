@@ -19,6 +19,7 @@ header{
   color: rgb(255, 217, 0);
   width: 20rem;
   margin-left: 38%;
+  border-radius: 6px;
 }
 
 button{     
@@ -32,18 +33,20 @@ border-radius: 8px;
 color:black;
 border-color: black;
 opacity: 72%;
+
 }
 
 button:hover{
     opacity: 90%;
+    cursor: pointer;
   }
 
   /* Peperroni Sliced Pizza */
 
 /* 
-  pepperoni image */
+  food image */
   #image{                                                 
-    border: 3px rgb(147, 149, 255) solid;
+    border: 3px solid;
     border-color: black;
     margin-left: 4%;
   }
@@ -80,6 +83,7 @@ button:hover{
     border: 8px;
   }
 
+  /* The other image on the  */
   #image2{                                                 
     border: 3px rgb(147, 149, 255) solid;
     border-color: black;
