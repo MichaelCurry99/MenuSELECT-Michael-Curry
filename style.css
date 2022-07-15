@@ -14,12 +14,14 @@ header{
 }
 
 /* The banner under the header*/
-#sectionrow1{
+#banner{
   background-color: rgb(255, 217, 0);
   color: rgb(255, 217, 0);
   width: 20rem;
+  height: 20px;
   margin-left: 38%;
   border-radius: 6px;
+  font-size: 0px;
 }
 
 button{     
